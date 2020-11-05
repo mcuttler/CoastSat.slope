@@ -82,7 +82,7 @@ SDS_slope.plot_cross_distance(output['dates'],cross_distance)
 days_in_year = 365.2425
 seconds_in_day = 24*3600
 settings_slope = {'slope_min':        0.035,
-                  'slope_max':        0.2, 
+                  'slope_max':        0.3, 
                   'delta_slope':      0.005,
                   'date_range':       [1999,2020],            # range of dates over which to perform the analysis
                   'n_days':           8,                      # sampling period [days]
